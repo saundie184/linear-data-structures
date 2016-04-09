@@ -64,7 +64,7 @@ function mergeSort(list) {
 // console.log(merge([3, 5, 6, 7], [1, 4, 8, 9, 10]));
 // console.log(mergeSort([25, 3, 5, 6, 7, 11, 1, 4, 8, 9, 10]));
 
-console.log('100  '+ testPerformance( mergeSort, getRandomList(100)));
-console.log('1000  '+ testPerformance( mergeSort, getRandomList(1000)));
-console.log('10000  '+ testPerformance( mergeSort, getRandomList(10000)));
-console.log('100000  '+ testPerformance( mergeSort, getRandomList(100000)));
+// console.log('100  '+ testPerformance( mergeSort, getRandomList(100)));
+// console.log('1000  '+ testPerformance( mergeSort, getRandomList(1000)));
+// console.log('10000  '+ testPerformance( mergeSort, getRandomList(10000)));
+// console.log('100000  '+ testPerformance( mergeSort, getRandomList(100000)));
