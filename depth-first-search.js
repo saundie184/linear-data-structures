@@ -85,7 +85,7 @@ function Node(val, left, right) {
   this.rightChild = right || null;
 }
 
-var myBinTree = new BinTree(7, new Node(6), new Node(10, new Node(9), new Node(14)));
+var myBinTree = new BinTree(7, new Node(6), new Node(10, new Node(9), new Node(15)));
 
 console.log(myBinTree.depthFirstSearchPreOrder());
 console.log(myBinTree.depthFirstSearchInOrder());
